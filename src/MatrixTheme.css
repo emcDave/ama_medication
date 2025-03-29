@@ -1,39 +1,57 @@
 /* MatrixTheme.css */
 
+/* Base styles */
 html, body {
-    margin: 0;
-    padding: 0;
-    background-color: black;        /* Black background like The Matrix */
-    font-family: 'Courier New', Courier, monospace;  /* Monospaced "hacker" font */
-    color: #00FF00;                 /* Neon green text */
-    height: 100%;
-  }
-  
-  h1, h2, h3, h4, h5, h6, p, span, div, table, td, th {
-    color: #00FF00;                 /* Ensure all text is green */
-  }
-  
+  margin: 0;
+  padding: 0;
+  background-color: black;        /* Black background like The Matrix */
+  font-family: 'Courier New', Courier, monospace;  /* Monospaced "hacker" font */
+  color: #00FF00;                 /* Neon green text */
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, div, table, td, th {
+  color: #00FF00;  /* Ensure all text is green */
+}
+
+.table {
+  border: 1px solid #00FF00;      /* Green border around the table */
+  border-collapse: collapse;
+  margin: 20px auto;              /* Center the table horizontally */
+  width: 80%;
+  max-width: 800px;               /* Prevent the table from becoming too wide */
+}
+
+.table th,
+.table td {
+  border: 1px solid #00FF00;      /* Green borders for cells */
+  padding: 8px;
+  text-align: left;
+}
+
+.table thead {
+  background-color: #003300;      /* Dark green background for the header */
+}
+
+/* Make the page more responsive for smaller screens */
+@media screen and (max-width: 600px) {
   .table {
-    border: 1px solid #00FF00;      /* Green border around the table */
-    border-collapse: collapse;
-    margin: 20px auto;              /* Center the table horizontally */
-    width: 80%;
+    width: 100%;               /* Use full width on small devices */
+    margin: 0 auto;            /* Keep it centered */
+    max-width: none;           /* Let it expand as needed */
   }
-  
-  .table th,
-  .table td {
-    border: 1px solid #00FF00;      /* Green borders for cells */
-    padding: 8px;
-    text-align: left;
+
+  .table th, .table td {
+    padding: 6px;             /* Decrease padding for smaller screens */
+    font-size: 14px;          /* Or adjust as needed */
+    word-wrap: break-word;    /* Prevent overflowing text */
   }
-  
-  /* Optional: highlight table header row with a darker shade of green or some styling */
-  .table thead {
-    background-color: #003300;  /* Dark green background for the header */
-  }
-  
-  /* If you want a "digital rain" vibe behind the table, 
-     you can add a background image or an animation. 
-     But the above should give you a simple "Matrix green" theme.
-   */
-  
+
+  /* If you have longer text or multiple columns, you may want
+     to enable horizontal scrolling instead: 
+     .table {
+       display: block;
+       overflow-x: auto;
+     }
+  */
+}
