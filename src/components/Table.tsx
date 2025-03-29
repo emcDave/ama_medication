@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Column } from "./columns";
 import "./table.css";
 

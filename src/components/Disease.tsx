@@ -1,4 +1,4 @@
-import React from 'react'
+
 import "./table.css"
 const Disease = () => {
   const diseases = [
