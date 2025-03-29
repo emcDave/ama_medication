@@ -1,0 +1,73 @@
+/* table.css */
+
+/* Base table styling */
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 1rem;
+  
+  /* Dark background for a Matrix-like look */
+  background-color: #000;
+  /* Green text color */
+  color: #0f0;
+  
+  /* Start with a solid green border */
+  border: 1px solid #0f0;
+
+  /* Attach the Matrix-themed slow glitch animation */
+  animation: matrix-border 20s infinite;
+}
+
+/* Table header row styling */
+.table thead {
+  /* Slightly darker or lighter background for the header */
+  background-color: #111;
+}
+
+/* By default, each cell has the same green border */
+.table th,
+.table td {
+  border: 1px solid #0f0;
+  padding: 8px;
+  text-align: right; /* your default alignment */
+}
+
+/* Example of a class for center alignment in specific columns */
+.center-dosage {
+  text-align: center !important;
+}
+
+/* 
+  Keyframes for a "slow glitch" effect. 
+  - The table is stable (1px solid #0f0) from 0% to 80% (first 16s).
+  - Then from 80% to 100% (last 4s) we do a series of quick border style changes 
+    to simulate a flicker/glitch. 
+*/
+@keyframes matrix-border {
+  /* Normal for first 80% of the cycle (16 seconds) */
+  0%, 80% {
+    border: 1px solid #0f0;
+  }
+
+  /* Slight glitch in short bursts, each lasting a few percent: */
+  81%, 84% {
+    border: 2px solid #0f0;
+  }
+  85%, 88% {
+    border: 2px dashed #0f0;
+  }
+  89%, 92% {
+    border: 2px double #0f0;
+  }
+  93%, 96% {
+    border: 3px solid #0f0;
+  }
+  97%, 99% {
+    border: 2px dotted #0f0;
+  }
+
+  /* Back to normal at 100% (start of new cycle) */
+  100% {
+    border: 1px solid #0f0;
+  }
+}
