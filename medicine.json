@@ -1,0 +1,195 @@
+[
+  {
+    "id": 1,
+    "name": "Aspirin",
+    "description": "Aspirin is used for pain relief, fever reduction, and to help prevent blood clots (often prescribed in coronary artery disease).",
+    "dosage": {
+      "morning": "1 tab after food",
+      "afternoon": "❎",
+      "evening": "❎"
+    },
+    "sideEffects": [
+      "Increased bleeding risk",
+      "Stomach irritation or ulceration",
+      "Nausea"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Atorvastatin",
+    "description": "Atorvastatin helps lower cholesterol levels and reduce the risk of heart disease (commonly used in coronary artery disease).",
+    "dosage": {
+      "morning": "❎",
+      "afternoon": "❎",
+      "evening": "4 tabs after food"
+    },
+    "sideEffects": [
+      "Muscle aches",
+      "Elevated liver enzymes",
+      "Fatigue"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Ticagrelor 90mg",
+    "description": "Ticagrelor is an antiplatelet agent used to prevent blood clots (especially relevant for coronary artery disease).",
+    "dosage": {
+      "morning": "1 tab after food",
+      "afternoon": "❎",
+      "evening": "1 tab after food"
+    },
+    "sideEffects": [
+      "Bleeding (nosebleeds, bruising)",
+      "Shortness of breath",
+      "Dizziness"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Furosemide (Frusemide)",
+    "description": "A diuretic that helps remove excess fluid from the body by increasing urine output (often used in kidney disease or heart failure).",
+    "dosage": {
+      "morning": "1/4 tab after food",
+      "afternoon": "❎",
+      "evening": "❎"
+    },
+    "sideEffects": [
+      "Dehydration",
+      "Electrolyte imbalance (low potassium)",
+      "Low blood pressure"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Ranitidine",
+    "description": "Ranitidine reduces stomach acid, helping prevent and treat ulcers or acid reflux.",
+    "dosage": {
+      "morning": "1 tab 30 min before food",
+      "afternoon": "❎",
+      "evening": "1 tab 30 min before food"
+    },
+    "sideEffects": [
+      "Headache",
+      "Constipation or diarrhea",
+      "Dizziness"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Thiamine 75mg (Vitamin B1)",
+    "description": "Thiamine supports carbohydrate metabolism and healthy nerve function (helpful in various conditions, including diabetes).",
+    "dosage": {
+      "morning": "1 tab after food",
+      "afternoon": "❎",
+      "evening": "❎"
+    },
+    "sideEffects": [
+      "Rarely causes side effects",
+      "Possible mild digestive discomfort"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Iron Tablet",
+    "description": "Iron supplements help treat or prevent anemia by aiding red blood cell production (particularly important in chronic kidney disease).",
+    "dosage": {
+      "morning": "1 tab after food",
+      "afternoon": "❎",
+      "evening": "1 tab after food"
+    },
+    "sideEffects": [
+      "Constipation",
+      "Stomach upset",
+      "Dark stools"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Vitamin C 250mg",
+    "description": "Vitamin C supports tissue repair and immune function (beneficial overall, especially for wound healing in diabetes).",
+    "dosage": {
+      "morning": "1 tab after food",
+      "afternoon": "❎",
+      "evening": "❎"
+    },
+    "sideEffects": [
+      "Upset stomach (high doses)",
+      "Increased risk of kidney stones (high doses)"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Vildagliptin 50mg",
+    "description": "Vildagliptin helps control blood sugar in type 2 diabetes by regulating incretin hormones.",
+    "dosage": {
+      "morning": "1 tab after food",
+      "afternoon": "❎",
+      "evening": "1 tab after food"
+    },
+    "sideEffects": [
+      "Headache",
+      "Dizziness",
+      "Possible hypoglycemia (when combined with other diabetic medications)"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Dapagliflozin 10mg",
+    "description": "Dapagliflozin helps lower blood sugar by promoting the excretion of glucose through urine (used in type 2 diabetes).",
+    "dosage": {
+      "morning": "1 tab after food",
+      "afternoon": "❎",
+      "evening": "❎"
+    },
+    "sideEffects": [
+      "Urinary tract infections",
+      "Dehydration or thirst",
+      "Genital yeast infections"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Calcium Carbonate 500mg",
+    "description": "A calcium supplement used to treat or prevent low blood calcium levels (may be required in chronic kidney disease).",
+    "dosage": {
+      "morning": "1 tab after food",
+      "afternoon": "❎",
+      "evening": "❎"
+    },
+    "sideEffects": [
+      "Constipation",
+      "Possible hypercalcemia with high doses",
+      "Stomach discomfort"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Sodium Bicarbonate 500mg",
+    "description": "Sodium bicarbonate helps reduce acidity in the blood and stomach (often used in chronic kidney disease for metabolic acidosis).",
+    "dosage": {
+      "morning": "1 tab after food",
+      "afternoon": "❎",
+      "evening": "❎"
+    },
+    "sideEffects": [
+      "Stomach cramps",
+      "Bloating",
+      "Possible alkalosis with excessive use"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Insulin Mixtard",
+    "description": "A mixed insulin formulation to help control blood sugar levels in diabetes mellitus.",
+    "dosage": {
+      "morning": "35 ml (30 min before food)",
+      "afternoon": "❎",
+      "evening": "22 ml (30 min before food)"
+    },
+    "sideEffects": [
+      "Hypoglycemia (low blood sugar)",
+      "Weight gain",
+      "Injection site irritation"
+    ]
+  }
+]
